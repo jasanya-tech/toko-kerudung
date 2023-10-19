@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #EFEFEF;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------------------------
+# register
+----------------------------------------*/
+.img-fluid {
+  width: 600px;
+  max-height: 80%;
+}
+
+.input-form {
+  width: 45%;
+  padding: 30px 28px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  margin-left: 25%;
+
+}
+
+label {
+  font-weight: 600;
+}
+
+.btn-masuk {
+  width: 50%;
+  background-color: #2231bd;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-masuk:hover,
+.btn-login:hover {
+  color: #fff;
+  background-color: #9084fa;
+}
+
+.nav-login .btn-primary{
+  background-color: #3b25fd;
+}
+
+.nav-login .btn-primary:hover{
+  background-color: #4351a3;
+  color: #ffffff;
+}
+
+.btn-login {
+  width: 100%;
+  background-color: #3f25b3;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+/*----------------------------------------
+# login
+----------------------------------------*/
+.form-text a {
+  text-decoration: none;
+}
+
+.forget-password {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.forget-password img {
+  max-height: 250px;
+}
+
+.forget-password .container {
+  width: 40%;
+}
+
+/*----------------------------------------
+# landing page
+----------------------------------------*/
+.why-us {
+  background-color: #fff;
+  width: 100%;
+}
+
+nav {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 4px 20px 0px;
+}
+
+.dropdown .dropdown-menu {
+  position: absolute;
+  left: -60px;
+  top: 30px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
+
+.gambar-logo{
+  width : 150px;
+  height: auto;
+}
+
+.btn-buy{
+  background-color: #2d1eb3;
+}
+
+.tentang-kami img{
+width: 75%;
+height: fit-content;
+justify-content: end;
+}
+
+.landing-page .content {
+  background-color: #EFEFEF;
+  height: calc(100vh - 66px);
+  margin-top: 66px;
+}
+
+.col-right img {
+  width: 90%;
+}
+
+.item-product img{
+width: 300px;
+height: auto;
+margin: 20px 0 0 10px;
+}
+
+.item-product{
+  padding: 0;
+  max-width: max-content;
+  margin-left: 10px;
+}
+
+.teks-show{
+  align-content: end;
+  padding-left: 0;
+  text-align: end;
+}
+
+.teks-show a{
+  color:#000;
+  text-decoration: none;
+}
+
+.footer{
+  background-color: #34596e;
+}
+
+.why-us .container {
+  padding: 60px 0;
+}
+
+.call-to-act .container {
+  margin: 40px auto;
+  padding: 36px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .landing-page .content {
+    background-color: #d06cc2;
+    height: auto;
+    margin-top: 66px;
+    padding: 150px 0;
+  }
+}
+
+/*----------------------------------------
+Produk
+----------------------------------------*/
+
+.card-item{
+  max-width: 250px ;
+  height: auto;
+  border-radius: 1px;
+  box-shadow: #000;
+  margin: 10px 10px 10px 10px;
+}
+
+.card-item .btn{
+  width: 200px;
+  height: fit-content;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.card-item .btn-keranjang{
+  background-color: #cfd4ff;
+}
